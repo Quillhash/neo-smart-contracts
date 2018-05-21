@@ -1,0 +1,57 @@
+{
+    "avm": {
+        "name": "2-print-and-notify",
+        "hash": "ccdc831dece75420186cade5cfbae1b1"
+    },
+    "compiler": {
+        "name": "neo-boa",
+        "version": "0.4.2"
+    },
+    "files": [
+        {
+            "id": 1,
+            "url": "/root/neo-smart-contracts/2-print-and-notify.py"
+        }
+    ],
+    "map": [
+        {
+            "start": 3,
+            "end": 37,
+            "file": 1,
+            "method": "Main",
+            "line": 4,
+            "file_line_no": 14
+        },
+        {
+            "start": 38,
+            "end": 70,
+            "file": 1,
+            "method": "Main",
+            "line": 7,
+            "file_line_no": 17
+        },
+        {
+            "start": 71,
+            "end": 102,
+            "file": 1,
+            "method": "Main",
+            "line": 8,
+            "file_line_no": 18
+        },
+        {
+            "start": 103,
+            "end": 117,
+            "file": 1,
+            "method": "Main",
+            "line": 11,
+            "file_line_no": 21
+        },
+        {
+            "start": 118,
+            "end": 145,
+            "file": 1,
+            "line": 12
+        }
+    ],
+    "breakpoints": []
+}
