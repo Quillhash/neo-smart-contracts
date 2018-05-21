@@ -4,7 +4,7 @@
 
 #QuickStart 
 
-##``` Clone the repo and cd ```
+#``` Clone the repo and cd ```
 
 # Pull the Docker image
 docker pull docker pull cityofzion/neo-privatenet
@@ -12,7 +12,7 @@ docker pull docker pull cityofzion/neo-privatenet
 # Start a private network
 docker run --rm -d --name neo-privatenet -p 20333-20336:20333-20336/tcp -p 30333-30336:30333-30336/tcp cityofzion/neo-privatenet
 
-# Download the private network wallet
+# Download the private network wallet or create new wallet (neo-privnet-sample.wallet)
 wget https://s3.amazonaws.com/neo-experiments/neo-privnet.wallet
 
 # Create a Python 3.6 virtual environment and activate it
