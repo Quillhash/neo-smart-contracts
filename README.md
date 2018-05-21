@@ -1,21 +1,10 @@
-Neo Smart Contracts
+#Neo Smart Contracts
 
-Neo-python
+#Neo-python
 
-git clone https://github.com/CityOfZion/neo-python.git
-cd neo-python
+#QuickStart 
 
-# create virtual environment and activate
-
-python3.6 -m venv venv # this can also be python3 -m venv venv depending on your environment
-source venv/bin/activate
-
-# install the package in an editable form
-(venv) pip install -e .
-
-QuickStart 
-
-``` Clone the repo and cd ```
+##``` Clone the repo and cd ```
 
 # Pull the Docker image
 docker pull docker pull cityofzion/neo-privatenet
