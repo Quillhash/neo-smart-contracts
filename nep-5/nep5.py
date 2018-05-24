@@ -1,7 +1,7 @@
-from boa.blockchain.vm.Neo.Runtime import Log,GetTrigger,CheckWitness
-from boa.blockchain.vm.Neo.Action import RegisterAction
-from boa.blockchain.vm.Neo.TriggerType import Application, Verification
-from boa.blockchain.vm.Neo.Storage import GetContext, Get, Put, Delete
+from boa.interop.Neo.Blockchain.Runtime import Log,GetTrigger,CheckWitness
+from boa.interop.Neo.Blockchain.Action import RegisterAction
+from boa.interop.Neo.Blockchain.TriggerType import Application, Verification
+from boa.interop.Neo.Blockchain.Storage import GetContext, Get, Put, Delete
 from boa.code.builtins import concat
 
 # -------------------------------------------
