@@ -180,7 +180,7 @@ def DoTransfer(t_from, t_to, amount):
 
     DispatchTransferEvent(t_from, t_to, amount)
 
-	return True
+    return True
 
 def DoTransferFrom(t_from, t_to, amount):
     """
@@ -294,7 +294,7 @@ def GetAllowance(t_owner, t_spender):
 
     amount = Get(context, allowance_key)
 
-	return amount
+    return amount
 
 def BalanceOf(account):
     """
@@ -308,4 +308,4 @@ def BalanceOf(account):
 
     balance = Get(context, account)
 
-	return balance
+    return balance
