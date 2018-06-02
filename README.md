@@ -7,26 +7,26 @@
 #``` Clone the repo and cd ```
 
 # Pull the Docker image
-docker pull cityofzion/neo-privatenet
+#```docker pull cityofzion/neo-privatenet```
 
 # Start a private network
-docker run --rm -d --name neo-privatenet -p 20333-20336:20333-20336/tcp -p 30333-30336:30333-30336/tcp cityofzion/neo-privatenet
+#```docker run --rm -d --name neo-privatenet -p 20333-20336:20333-20336/tcp -p 30333-30336:30333-30336/tcp cityofzion/neo-privatenet```
 
 # Download the private network wallet or create new wallet (neo-privnet-sample.wallet)
-wget https://s3.amazonaws.com/neo-experiments/neo-privnet.wallet
+#```wget https://s3.amazonaws.com/neo-experiments/neo-privnet.wallet```
 
 # Create a Python 3.6 virtual environment and activate it
-python3.6 -m venv venv 
-source venv/bin/activate
+#```python3.6 -m venv venv```
+#```source venv/bin/activate```
 
 # Install neo-python
-pip install neo-python
+#```pip install neo-python```
 
 # Remove any old private chain database
-rm -rf ~/.neopython/Chains/privnet*
+#```rm -rf ~/.neopython/Chains/privnet*```
 
 # Start neo-python connected to the private net (-p), showing sc events (-v)
-np-prompt -p -v
+#```np-prompt -p -v```
 
 # AntChain REST Service
 
