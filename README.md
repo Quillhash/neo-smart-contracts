@@ -83,4 +83,3 @@ antChain.getBlockByHeight(blockHeight)
 antChain.getTransactionByTxid(txId)
 antChain.getCurrentBlock()
 
-### For Detailed Info -> /neo-api-js
